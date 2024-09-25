@@ -11,10 +11,11 @@ dependencies:
   - matplotlib
   - scikit-learn
   - pip
-  - flake8
-  - black
+  - pillow
   - pyspark
   - pymongo
   - pytest
   - seaborn
   - tensorflow
+  - streamlit
+
