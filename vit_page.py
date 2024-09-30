@@ -52,7 +52,7 @@ def vit_classifier_page():
 
     # Load the ViT model and class indices
     working_dir = os.path.dirname(os.path.abspath(__file__))
-    model_path = os.path.join(working_dir, "vit_prediction_model_V3.pkl")
+    model_path = os.path.join(working_dir, "vit_prediction_model_V3")
     
     # Ensure the custom layer (PatchExtractor) is recognized when loading the model
     with tf.keras.utils.custom_object_scope({'PatchExtractor': PatchExtractor}):
